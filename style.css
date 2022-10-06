@@ -1,7 +1,20 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color:  #F65A83
+font color:      #100F0F 
+secondary color:   #FA9494
+tertiary color:    #EB1D36
 */
+
+/* CSS syntax notes:
+   selector {property value;}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    background-color:  #F65A83;
+    color: #100F0F;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
